@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		97DA89C42CFF80A400125ECE /* NetworkLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 97DA89C32CFF80A400125ECE /* NetworkLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		97DA89B02CFF7F7400125ECE /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DA89C42CFF80A400125ECE /* NetworkLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
+				97DA89C32CFF80A400125ECE /* NetworkLibrary */,
 			);
 			productName = Demo;
 			productReference = 97DA89B02CFF7F7400125ECE /* Demo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 97DA89A72CFF7F7400125ECE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				97DA89C22CFF80A300125ECE /* XCRemoteSwiftPackageReference "NetworkLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 97DA89B12CFF7F7400125ECE /* Products */;
 			projectDirPath = "";
@@ -339,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97DA89C22CFF80A300125ECE /* XCRemoteSwiftPackageReference "NetworkLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FerFuentes/NetworkLibrary";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97DA89C32CFF80A400125ECE /* NetworkLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DA89C22CFF80A300125ECE /* XCRemoteSwiftPackageReference "NetworkLibrary" */;
+			productName = NetworkLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 97DA89A82CFF7F7400125ECE /* Project object */;
 }

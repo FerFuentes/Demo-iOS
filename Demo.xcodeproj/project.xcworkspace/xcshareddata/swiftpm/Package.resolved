@@ -1,0 +1,15 @@
+{
+  "originHash" : "5a10937369c313e67c4bbc6ed8824cc06f6cad090149d7f998ca845bd32eb00f",
+  "pins" : [
+    {
+      "identity" : "networklibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FerFuentes/NetworkLibrary",
+      "state" : {
+        "branch" : "main",
+        "revision" : "54ee047bee73248135fe1aa4c6602ecfe2a89278"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1F970151-CC1E-4726-ACEB-3AD2BA860E3E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEDDDD40-DBA2-4D40-98E0-64F27F42730E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "sendRequest(endpoint:responseModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C8DFD08-8B15-4976-9816-BA8940912C77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "sendRequest(endpoint:responseModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07234B87-ED2A-41E4-8D1E-673DC9B95D33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Base.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7CB5C24-8DD7-4929-829E-84D1B0FD15EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Base.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35E71E7D-9045-49D9-8828-145A8D1D839D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Base.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45124BAF-0FDC-4B90-9590-A50B2A1A8F72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "sendRequest(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45124BAF-0FDC-4B90-9590-A50B2A1A8F72 - 930668d6fdd10c36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+               <Location
+                  uuid = "45124BAF-0FDC-4B90-9590-A50B2A1A8F72 - 930668d6fdd10c17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B00EF495-16DD-4831-97D7-48A4724F7AD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "sendRequest(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B00EF495-16DD-4831-97D7-48A4724F7AD1 - 930668d6fdd10d6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62">
+               </Location>
+               <Location
+                  uuid = "B00EF495-16DD-4831-97D7-48A4724F7AD1 - 930668d6fdd10d4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68B5C5A9-C29D-41E5-9EC5-3627EC8DF21E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "sendRequest(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68B5C5A9-C29D-41E5-9EC5-3627EC8DF21E - 930668d6fdd10ae8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66">
+               </Location>
+               <Location
+                  uuid = "68B5C5A9-C29D-41E5-9EC5-3627EC8DF21E - 930668d6fdd10ac9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkLibrary.Client.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: NetworkLibrary.Base, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, NetworkLibrary.RequestError&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Library/Developer/Xcode/DerivedData/Demo-gxaspistbyevefavgxosukmqgxgp/SourcePackages/checkouts/NetworkLibrary/Sources/NetworkLibrary/Base/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A4FBDBB-BEB2-4DC8-90FC-094F4B008014"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo/Endpoints/Endpoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "host"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE1915B9-5870-4710-91A4-D7A6B8C6C0C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo/User/Repository/UserRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65CEF5D9-82FB-4491-BCF5-77A8FB8C1077"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo/User/Repository/UserRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65CEF5D9-82FB-4491-BCF5-77A8FB8C1077 - 193a479a4ccbd898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Demo.UserRepositoryImpl.fetchUsers() async throws -&gt; Swift.Array&lt;Demo.User&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Documents/development/personal/Demo/Demo/User/Repository/UserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "65CEF5D9-82FB-4491-BCF5-77A8FB8C1077 - 5d40f0c8208069a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Demo.UserRepositoryImpl.fetchUsers() async throws -&gt; Swift.Array&lt;Demo.User&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Documents/development/personal/Demo/Demo/User/Repository/UserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "65CEF5D9-82FB-4491-BCF5-77A8FB8C1077 - e9e32457702a49a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Demo.UserRepositoryImpl.fetchUsers() async throws -&gt; Swift.Array&lt;Demo.User&gt;"
+                  moduleName = "Demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ferfuentes/Documents/development/personal/Demo/Demo/User/Repository/UserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
