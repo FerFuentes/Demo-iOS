@@ -14,7 +14,7 @@ struct UsersView: View {
         
         List {
             Section {
-                ForEach(model.users, id: \.id) { user in
+                ForEach(model.users.sorted { $0.name < $1.name }, id: \.id) { user in
                     Text("\(user.name)")
                 }
             }
@@ -33,7 +33,9 @@ struct UsersView: View {
             Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
                 .renderingMode(.template)
                 .resizable()
-        })
+        }).task {
+            await model.fetchUsers()
+        }
 
     }
 }

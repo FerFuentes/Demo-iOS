@@ -17,7 +17,6 @@ struct MainView: View {
         TabView(selection: $selectedtab) {
             ForEach(model.sample) { tabItem in
                 
-                
                 switch tabItem.action {
                 case .openURL(let url):
                     AppPageWebView( appPageStringURL: url)
