@@ -17,22 +17,42 @@ class NavigationViewsManager {
     @MainActor @ViewBuilder
     func destination(_ item: NavigationModel) -> some View {
         
-        switch item.key {
-        case .home:
-            NavigationView {
-                HomeView()
-                    .navigationTitle(item.key.rawValue)
+        
+        switch item.action {
+        case .openURL(let url, let showTitle):
+            if showTitle {
+                NavigationView {
+                    AppPageWebView(title: item.key.rawValue, url: URL(string: url))
+                }
+                
+            } else {
+                AppPageWebView(title: item.key.rawValue, url: URL(string: url))
+                    .ignoresSafeArea()
             }
-        case .users:
-            NavigationView {
-                UsersView()
-                    .navigationTitle(item.key.rawValue)
-            }
-        case .about:
-            EmptyView()
-        case .messages:
-            NavigationView {
-                MessagesView()
+        case .openView:
+            switch item.key {
+            case .home:
+                NavigationView {
+                    HomeView()
+                        .navigationTitle(item.key.rawValue)
+                }
+            case .users:
+                NavigationView {
+                    UsersView()
+                        .navigationTitle(item.key.rawValue)
+                }
+            case .messages:
+                NavigationView {
+                    MessagesView()
+                        .navigationTitle(item.key.rawValue)
+                }
+            case .about:
+                NavigationView {
+                    AboutView()
+                        .navigationTitle(item.key.rawValue)
+                }
+            case .settings:
+                SettingsView()
                     .navigationTitle(item.key.rawValue)
             }
         }

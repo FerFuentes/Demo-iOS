@@ -6,11 +6,13 @@
 //
 import SwiftUI
 import Combine
+import NetworkLibrary
 
 @MainActor
 class UsersViewModel: ObservableObject {
     @Published var loading = false
     @Published var users: [User] = []
+    @Published var showAlertError: (show: Bool, requestError: RequestError?) = (show: false, requestError: nil)
     
     var cancellables = Set<AnyCancellable>()
     let repository: UserRepositoryImpl = {
@@ -34,8 +36,10 @@ class UsersViewModel: ObservableObject {
         do {
             let response = try await repository.fetchUsers()
             users = response
+        } catch let error as RequestError {
+            showAlertError = (show: true, requestError: error)
         } catch {
-            debugPrint(error)
+            print(error)
         }
     }
 }

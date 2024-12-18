@@ -17,43 +17,23 @@ struct MainView: View {
         TabView(selection: $selectedtab) {
             ForEach(model.sample) { tabItem in
                 
-                switch tabItem.action {
-                case .openURL(let url):
-                    AppPageWebView( appPageStringURL: url)
-                        .ignoresSafeArea()
-                        .tag(tabItem.id)
-                        .tabItem {
+                navigationManager.destination(tabItem)
+                    .ignoresSafeArea()
+                    .tag(tabItem.id)
+                    .tabItem {
+                        
+                        Label {
+                            Text(tabItem.key.rawValue)
                             
-                            Label {
-                                Text(tabItem.key.rawValue)
-                            } icon: {
-                                IconView(
-                                    scale: 20,
-                                    applyforegroundColor: (apply: true, color: nil),
-                                    iconURL: tabItem.iconURL
-                                )
-                            }
-                            
+                        } icon: {
+                            IconView(
+                                scale: 20,
+                                applyforegroundColor: (apply: true, color: .gray),
+                                iconURL: tabItem.iconURL
+                            )
                         }
-                default:
-                    navigationManager.destination(tabItem)
-                        .ignoresSafeArea()
-                        .tag(tabItem.id)
-                        .tabItem {
-                            
-                            Label {
-                                Text(tabItem.key.rawValue)
-                                
-                            } icon: {
-                                IconView(
-                                    scale: 20,
-                                    applyforegroundColor: (apply: true, color: .gray),
-                                    iconURL: tabItem.iconURL
-                                )
-                            }
-                            
-                        }
-                }
+                        
+                    }
             }
         }.tint(.blue)
             

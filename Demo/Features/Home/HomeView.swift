@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct HomeView: View {
+    private let navigationManager = NavigationViewsManager.shared
+    private let settingsItem = NavigationModel(id: "7", key: .settings, action: .openView)
+    
     var body: some View {
         VStack {
-            Text("Home")
+            
+        }.toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                NavigationLink(destination: navigationManager.destination(settingsItem)) {
+                    Image(systemName: "gear")
+                        .renderingMode(.template)
+                        .resizable()
+                        .frame(width: 24, height: 24) // Adjust size as needed
+                }
+            }
         }
     }
 }

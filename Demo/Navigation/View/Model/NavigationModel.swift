@@ -13,7 +13,7 @@ struct NavigationModel: Decodable, Identifiable {
 }
 
 enum NavigationAction: Decodable, Equatable {
-    case openURL(url: String)
+    case openURL(url: String, showTitle: Bool)
     case openView
 }
 
@@ -22,4 +22,5 @@ enum NavigationKey: String, Decodable {
     case users = "Users"
     case about = "About"
     case messages = "Messages"
+    case settings = "Settings"
 }

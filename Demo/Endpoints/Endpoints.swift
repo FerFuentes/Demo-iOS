@@ -28,14 +28,18 @@ extension Endpoints: Base {
         return "/"
     }
     
-    
     public var header: [String: String]? {
         var headers: [String: String]? = [
             "Accept": "*/*",
             "Content-Type": "application/json"
         ]
         
-        return headers
+        switch self {
+        case .test:
+            headers?[""] = ""
+            return headers
+        default: return headers
+        }
     }
     
     public var method: RequestMethod {
