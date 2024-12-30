@@ -18,12 +18,11 @@ struct MainView: View {
             ForEach(model.sample) { tabItem in
                 
                 navigationManager.destination(tabItem)
-                    .ignoresSafeArea()
                     .tag(tabItem.id)
                     .tabItem {
                         
                         Label {
-                            Text(tabItem.key.rawValue)
+                            Text(tabItem.key.title)
                             
                         } icon: {
                             IconView(

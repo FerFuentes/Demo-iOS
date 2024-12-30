@@ -59,7 +59,6 @@ struct IconView: View {
         } else {
             image
                 .resizable()
-                .renderingMode(.template)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: size.width, height: size.height)
         }

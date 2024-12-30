@@ -12,6 +12,8 @@ import Foundation
 public enum Endpoints {
     case test
     case users
+    case articles
+    case articleDetail(id: String)
 }
 
 extension Endpoints: Base {
@@ -44,7 +46,7 @@ extension Endpoints: Base {
     
     public var method: RequestMethod {
         switch self {
-        case .test, .users: return .get
+        case .test, .users, .articles, .articleDetail: return .get
         }
     }
     
@@ -52,6 +54,8 @@ extension Endpoints: Base {
         switch self {
         case .test: return "test"
         case .users: return "users"
+        case .articles: return "articles"
+        case .articleDetail(let id): return "articles/\(id)"
         }
     }
     

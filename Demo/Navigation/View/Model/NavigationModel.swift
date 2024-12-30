@@ -17,10 +17,24 @@ enum NavigationAction: Decodable, Equatable {
     case openView
 }
 
-enum NavigationKey: String, Decodable {
-    case home = "Home"
-    case users = "Users"
-    case about = "About"
-    case messages = "Messages"
-    case settings = "Settings"
+enum NavigationKey: Decodable {
+    case home
+    case users
+    case about
+    case messages
+    case settings
+    case articles
+    case detailArticles(id: String)
+    
+    var title: String {
+        switch self {
+        case .home: return "Home"
+        case .users: return "Users"
+        case .about: return "About"
+        case .messages: return "Messages"
+        case .settings: return "Settings"
+        case .articles: return "Articles"
+        case .detailArticles: return "Detail"
+        }
+    }
 }

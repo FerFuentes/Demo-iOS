@@ -22,11 +22,11 @@ class NavigationViewsManager {
         case .openURL(let url, let showTitle):
             if showTitle {
                 NavigationView {
-                    AppPageWebView(title: item.key.rawValue, url: URL(string: url))
+                    AppPageWebView(title: item.key.title, url: URL(string: url))
                 }
                 
             } else {
-                AppPageWebView(title: item.key.rawValue, url: URL(string: url))
+                AppPageWebView(title: item.key.title, url: URL(string: url))
                     .ignoresSafeArea()
             }
         case .openView:
@@ -34,26 +34,33 @@ class NavigationViewsManager {
             case .home:
                 NavigationView {
                     HomeView()
-                        .navigationTitle(item.key.rawValue)
+                        .navigationTitle(item.key.title)
                 }
             case .users:
                 NavigationView {
                     UsersView()
-                        .navigationTitle(item.key.rawValue)
+                        .navigationTitle(item.key.title)
                 }
             case .messages:
                 NavigationView {
                     MessagesView()
-                        .navigationTitle(item.key.rawValue)
+                        .navigationTitle(item.key.title)
                 }
             case .about:
                 NavigationView {
                     AboutView()
-                        .navigationTitle(item.key.rawValue)
+                        .navigationTitle(item.key.title)
                 }
             case .settings:
                 SettingsView()
-                    .navigationTitle(item.key.rawValue)
+                    .navigationTitle(item.key.title)
+            case .articles:
+                NavigationView {
+                    ArticlesView()
+                        .navigationTitle(item.key.title)
+                }
+            case .detailArticles(let id):
+                ArticleDetailView(articleId: id)
             }
         }
     }
